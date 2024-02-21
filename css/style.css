@@ -246,3 +246,8 @@ p{
     z-index: 99999999;
 }
 
+/* About */
+.about_wrapper {
+    padding-top: 9.375rem;
+}
+

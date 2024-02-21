@@ -14,7 +14,7 @@
 
     /* Booking area*/
     .booking-area {
-        padding: 3rem .625rem;
+        padding: 3rem 0.625rem;
     }
     .booking-area .main-btn {
         padding-left: .3125rem !important;
@@ -46,7 +46,7 @@
     /* banner wrapper*/
     .banner_wrapper {
         height: 25.625rem;
-        
+
     }
 }
 
