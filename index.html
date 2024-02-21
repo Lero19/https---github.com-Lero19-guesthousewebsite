@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Website Design by Nkosingiphile Ncongwane</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <!-- Bootstrap 5 CDN Links -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+    <!-- Custom CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive-style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="100">
+
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand" href="#">MAMLIGUESTHOUSE</a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <i class="fas fa-stream navbar-toggler-icon"></i>
+              </button>
+              
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#rooms">Rooms</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#gallery">Gallery</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#price">Price</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                  </li>
+                  <li class="nav-item mt-3 mt-lg-0">
+                    <a class="main-btn" href="#">Book Now</a>
+                  </li>            
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!-- Banner section starts here -->
+    <section id="home" class="banner_wrapper p-0">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" style="background-image: url(./images/slider/Slider1.jpg);">
+            <div class="slide-caption text-center">
+              <div>
+                <h1>Welcome to Mamliguesthouse</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Suscipit vitae ex nostrum deserunt odit asperiores hic. 
+                  Magni adipisci ab numquam natus nulla? Suscipit fugit odio ipsum libero, ad ipsam eligendi.
+                </p>
+              </div>
+            </div>     
+          </div>
+
+          <div class="swiper-slide" style="background-image: url(./images/slider/Slider2.jpg);">
+            <div class="slide-caption text-center">
+              <div>
+                <h1>Welcome to Mamliguesthouse</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Suscipit vitae ex nostrum deserunt odit asperiores hic. 
+                  Magni adipisci ab numquam natus nulla? Suscipit fugit odio ipsum libero, ad ipsam eligendi.
+                </p>
+              </div>
+            </div>     
+          </div>
+
+          <div class="swiper-slide" style="background-image: url(./images/slider/Slider3.jpg);">
+            <div class="slide-caption text-center">
+              <div>
+                <h1>Welcome to Mamliguesthouse</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Suscipit vitae ex nostrum deserunt odit asperiores hic. 
+                  Magni adipisci ab numquam natus nulla? Suscipit fugit odio ipsum libero, ad ipsam eligendi.
+                </p>
+              </div>
+            </div>     
+          </div>
+        </div>  
+        <div class="swiper-pagination"></div>
+      </div>
+      <!-- Booking Form With The Swiper Image -->
+      <div class="container booking-area">
+        <form class="row">
+          <div class="col-lg mb-3 mb-lg-0">
+            <input type="date" class="form-control" placeholder="date">
+          </div>
+          <div class="col-lg mb-3 mb-lg-0">
+            <input type="date" class="form-control" placeholder="date">
+          </div>
+          <div class="col-lg mb-3 mb-lg-0">
+            <select class="form-select">
+              <option selected>Adults</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+          <div class="col-lg mb-3 mb-lg-0">
+            <select class="form-select">
+              <option selected>Children</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+          </div>
+          <div class="col-lg mb-3 mb-lg-0">
+            <button type="submit" class="main-btn rounded-2 px-lg-3">Check Availability</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Banner section ends here -->
+
+    <!-- About section starts here -->
+
+    <!-- About section ends here -->
+    
+
+    <!-- Bootstrap 5 JS CDN Links -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Custom JS Link -->
+    <script src="js/main.js"></script>
+</body>
+</html>
