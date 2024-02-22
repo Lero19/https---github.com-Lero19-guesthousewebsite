@@ -246,6 +246,22 @@ p{
     z-index: 99999999;
 }
 
+.booking-area .form-control,
+.booking-area .form-select {
+    border: .625rem;
+    border: 1px solid black;
+    height: 2.5rem;
+    text-transform: uppercase;
+    font-size: .875rem;
+    color: var(--text-black);
+    font-weight: 500;
+}
+.booking-area .form-control:focus,
+.booking-area .form-select:focus {
+    outline: none;
+    box-shadow: none;
+}
+
 /* About */
 .about_wrapper {
     padding-top: 9.375rem;
