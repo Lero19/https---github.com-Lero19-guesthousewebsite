@@ -136,7 +136,14 @@
         line-height: 1.5rem;
     }
 
-    /* Custom css */
+    /* Blog*/
+    .blog_wrapper .blog-content {
+        margin: 0;
+    }
 
-    /* Custom css */
+    /* footer */
+    .footer_wrapper > div {
+        padding: 0 1.875rem;
+    }
+
 }

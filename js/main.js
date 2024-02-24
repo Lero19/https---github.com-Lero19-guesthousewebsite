@@ -50,4 +50,44 @@ document.addEventListener("DOMContentLoaded", () =>{
     counter("count2", 100 , 578, 2500);
     counter("count3", 0 , 1400, 300);
     counter("count4", 0 , 711, 3000);
-})
+});
+
+// Our partner code
+var swiper = new Swiper(".our-partner", {
+    slidesPerView: 5,
+    spaceBetween: 30,
+    loop: true,
+    autoplay: {
+        delay: 2000,
+    },
+    breakpoints: {
+        '991': {
+            slidesPerView: 5,
+            spaceBetween: 10.
+        },
+        '767': {
+            slidesPerView: 3,
+            spaceBetween: 10,
+        },
+        '320': {
+            slidesPerView: 2,
+            spaceBetween: 8,
+        },
+    },
+});
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    var scrollToTopBtn = document.getElementById("scrollToTopBtn");
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollToTopBtn.style.display = "block";
+    } else {
+        scrollToTopBtn.style.display = "none";
+    }
+}
+
+function scrollToTop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
